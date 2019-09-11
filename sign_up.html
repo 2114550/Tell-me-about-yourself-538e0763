@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Epic</title>
+</head>
+<body>
+<h1 id="boven">Vul in</h1>
+<form>
+    <script src="script.js"></script>
+
+    <!-- Naam invullen -->
+    <label for="Je naam">Je naam</label>
+    <input name="Je naam" id="Je naam" name="Je naam" text="text"/>
+
+    <!--E-mail invullen-->
+    <label for="Je email">Je email</label>
+    <input name="Je email" id="Je email" name="Je email" text="text"/>
+
+    <!--Telefoonnummer invullen-->
+    <label for="number">Je telefoonnummer</label>
+    <input type="text" id="number" name="number" required
+           minlength="8" maxlength="10" size="10"/>
+
+    <!--Pincode invullen-->
+    <label for="pincode">Pincode</label>
+    <input type="password" id="pincode" name="password" required
+           minlength="4" maxlength="32" size="10"/>
+
+    <!--Provincie invullen-->
+    <label for="provincie">Provincie</label>
+    <select id="provincie">
+        <option value="">--Kies een optie--</option>
+        <option value="Groningen">Groningen</option>
+        <option value="Friesland">Friesland</option>
+        <option value="Drenthe">Drenthe</option>
+        <option value="Overijssel">Overijssel</option>
+        <option value="Gelderland">Gelderland</option>
+        <option value="Flevoland">Flevoland</option>
+        <option value="Noord-Holland">Noord-Holland</option>
+        <option value="Zuid-Holland">Zuid-Holland</option>
+        <option value="Noord-Braband">Noord-Braband</option>
+        <option value="Zeeland">Zeeland</option>
+        <option value="Limburg">Limburg</option>
+    </select>
+
+    <!--Voetbal wel of niet-->
+    <div>
+        <p>
+            Vind je voetbal wel of niet leuk?
+        </p>
+    </div>
+    <div>
+        <input type="radio" id="ja" name="drone" value="ja">
+        <label for="ja">ja</label>
+    </div>
+    <div>
+        <input type="radio" id="nee" name="drone" value="nee">
+        <label for="nee">nee</label>
+    </div>
+
+    <!--Favoriete dag-->
+    <div>
+        <p>
+            Wat is(zijn) je favoriete dag(en) van de week?
+        </p>
+        <input type="checkbox" id="maandag" name="maandag" checked>
+        <label for="maandag">Maandag</label>
+
+        <input type="checkbox" id="dinsdag" name="dinsdag">
+        <label for="dinsdag">Dinsdag</label>
+
+        <input type="checkbox" id="woensdag" name="woensdag">
+        <label for="woensdag">Woensdag</label>
+
+        <input type="checkbox" id="donderdag" name="donderdag">
+        <label for="donderdag">Donderdag</label>
+
+        <input type="checkbox" id="vrijdag" name="vrijdag">
+        <label for="vrijdag">Vrijdag</label>
+
+        <input type="checkbox" id="zaterdag" name="zaterdag">
+        <label for="zaterdag">Zaterdag</label>
+        <input type="checkbox" id="zondag" name="zondag">
+        <label for="zondag">Zondag</label>
+    </div>
+
+    <!--Submitten-->
+    <input type="submit" value="Inleveren" height="20px;" width="60px;"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    background-color: lightpink;
+}
+form {
+    background-color: pink;
+    margin-left: 530px;
+    height: 300px;
+    width: 460px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+label {
+    margin-top: 70px;
+    margin-left: 70px;
+    padding-top: 5px
+    font-size: 14px;
+    color: red;
+}
+input {
+    margin-top: 10px;
+    margin-left: 75px;
+    width: 300px;
+}
+h1 {
+    color: darkred;
+    font-family: "Courier New";
+    font-size: 25px;
+
+}
+p {
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    color: red;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#boven {
+    background-color: hotpink;
+    color: darkred;
+    padding: 40px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 520px;
+    width: 400px;
+}
+div {
+    background-color: pink;
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    padding-top: 5px;
+    border-radius: 20px;
+}
