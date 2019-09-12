@@ -12,21 +12,21 @@
 
     <!-- Naam invullen -->
     <label for="Je naam">Je naam</label>
-    <input name="Je naam" id="Je naam" name="Je naam" text="text"/>
+    <input type="name" name="Je naam" id="Je naam" text="text" required/>
 
     <!--E-mail invullen-->
     <label for="Je email">Je email</label>
-    <input name="Je email" id="Je email" name="Je email" text="text"/>
+    <input type="email" name="Je email" id="Je email" text="text" required/>
 
     <!--Telefoonnummer invullen-->
     <label for="number">Je telefoonnummer</label>
-    <input type="text" id="number" name="number" required
+    <input type="number" id="number" name="number" required
            minlength="8" maxlength="10" size="10"/>
 
     <!--Pincode invullen-->
     <label for="pincode">Pincode</label>
-    <input type="password" id="pincode" name="password" required
-           minlength="4" maxlength="32" size="10"/>
+    <input type="password" id="pincode" name="pincode" required
+           minlength="4" maxlength="4" size="10"/>
 
     <!--Provincie invullen-->
     <label for="provincie">Provincie</label>
@@ -65,7 +65,7 @@
         <p>
             Wat is(zijn) je favoriete dag(en) van de week?
         </p>
-        <input type="checkbox" id="maandag" name="maandag" checked>
+        <input type="checkbox" id="maandag" name="maandag">
         <label for="maandag">Maandag</label>
 
         <input type="checkbox" id="dinsdag" name="dinsdag">
@@ -84,6 +84,13 @@
         <label for="zaterdag">Zaterdag</label>
         <input type="checkbox" id="zondag" name="zondag">
         <label for="zondag">Zondag</label>
+    </div>
+
+    <div>
+        <textarea id="Feedback" name="Feedback"
+                  rows="6" cols="33">
+            Schrijf hier je feedback!
+        </textarea>
     </div>
 
     <!--Submitten-->

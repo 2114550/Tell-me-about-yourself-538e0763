@@ -50,3 +50,7 @@ div {
     padding-top: 5px;
     border-radius: 20px;
 }
+textarea {
+    width: 400px;
+
+}
